@@ -9,10 +9,10 @@ This application supports the [Getting Started with PHP on Heroku](https://devce
 Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
-$ git clone https://github.com/LiyuanDou/Hidden-Scenery.git //.git前放project地址
-$ cd php-getting-started  // cd后放project名字
+$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
+$ cd php-getting-started
 $ heroku create
-$ git push heroku main  //最后一个单词，有的教程里是main，有的是master，可以都试试（豆都失败了
+$ git push heroku main
 $ heroku open
 ```
 
